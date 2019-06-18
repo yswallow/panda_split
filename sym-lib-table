@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name kbd)(type Legacy)(uri /home/yu/Documents/keyboard/kbd/labrary/kbd.lib)(options "")(descr ""))
   (lib (name mcp23017_sp)(type Legacy)(uri /home/yu/Documents/keyboard/lib/mcp23017_sp.lib)(options "")(descr ""))
+  (lib (name next-keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/next-keyboard-rescue.lib)(options "")(descr ""))
+  (lib (name kbd)(type Legacy)(uri /home/yu/Documents/keyboard/kbd/library/kbd.lib)(options "")(descr ""))
 )

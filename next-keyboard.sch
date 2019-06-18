@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:next-keyboard-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +20,7 @@ U 1 1 5C5AD11E
 P 1950 1975
 F 0 "U1" H 1950 3253 50  0000 C CNN
 F 1 "MCP23017_SP" H 1950 3162 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 2150 975 50  0001 L CNN
+F 2 "Package_DIP:DIP-28_W7.62mm_Socket" H 2150 975 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2150 875 50  0001 L CNN
 	1    1950 1975
 	0    -1   -1   0   
@@ -347,25 +347,25 @@ F 3 "" H 3050 1975 50  0001 C CNN
 	1    3050 1975
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 1275 1    50   Input ~ 0
+Text GLabel 1650 1275 1    50   Input ~ 0
 SW5
 Text GLabel 1750 1275 1    50   Input ~ 0
 SW4
-Text GLabel 1650 1275 1    50   Input ~ 0
+Text GLabel 1850 1275 1    50   Input ~ 0
 SW3
 Text GLabel 1550 1275 1    50   Input ~ 0
 SW2
 Text GLabel 1450 1275 1    50   Input ~ 0
 SW1
-Text GLabel 1150 2675 3    50   Input ~ 0
+Text GLabel 4075 1275 1    50   Input ~ 0
 SW6
-Text GLabel 1250 2675 3    50   Input ~ 0
+Text GLabel 4175 1275 1    50   Input ~ 0
 SW7
-Text GLabel 1350 2675 3    50   Input ~ 0
+Text GLabel 4275 1275 1    50   Input ~ 0
 SW8
-Text GLabel 1450 2675 3    50   Input ~ 0
+Text GLabel 4375 1275 1    50   Input ~ 0
 SW9
-Text GLabel 1550 2675 3    50   Input ~ 0
+Text GLabel 4475 1275 1    50   Input ~ 0
 SW10
 NoConn ~ 2100 1275
 NoConn ~ 2200 1275
@@ -381,7 +381,7 @@ U 1 1 5C5D71E9
 P 4575 1975
 F 0 "U2" H 4575 3253 50  0000 C CNN
 F 1 "MCP23017_SP" H 4575 3162 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 4775 975 50  0001 L CNN
+F 2 "Package_DIP:DIP-28_W7.62mm_Socket" H 4775 975 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4775 875 50  0001 L CNN
 	1    4575 1975
 	0    -1   -1   0   
@@ -409,15 +409,15 @@ F 3 "" H 5675 1975 50  0001 C CNN
 	1    5675 1975
 	1    0    0    -1  
 $EndComp
-Text GLabel 4475 1275 1    50   Input ~ 0
+Text GLabel 1550 2675 3    50   Input ~ 0
 SW15
-Text GLabel 4375 1275 1    50   Input ~ 0
+Text GLabel 1450 2675 3    50   Input ~ 0
 SW14
-Text GLabel 4275 1275 1    50   Input ~ 0
+Text GLabel 1350 2675 3    50   Input ~ 0
 SW13
-Text GLabel 4175 1275 1    50   Input ~ 0
+Text GLabel 1250 2675 3    50   Input ~ 0
 SW12
-Text GLabel 4075 1275 1    50   Input ~ 0
+Text GLabel 1150 2675 3    50   Input ~ 0
 SW11
 Text GLabel 3775 2675 3    50   Input ~ 0
 SW16
@@ -883,5 +883,93 @@ F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 2888 4025 50  0001 C CNN
 F 3 "~" H 2850 4175 50  0001 C CNN
 	1    2850 4175
 	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C63E87E
+P 6800 5200
+F 0 "H1" H 6900 5246 50  0000 L CNN
+F 1 "MountingHole" H 6900 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6800 5200 50  0001 C CNN
+F 3 "~" H 6800 5200 50  0001 C CNN
+	1    6800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C63E9D0
+P 7475 5200
+F 0 "H2" H 7575 5246 50  0000 L CNN
+F 1 "MountingHole" H 7575 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7475 5200 50  0001 C CNN
+F 3 "~" H 7475 5200 50  0001 C CNN
+	1    7475 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C63EA73
+P 6800 5525
+F 0 "H4" H 6900 5571 50  0000 L CNN
+F 1 "MountingHole" H 6900 5480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6800 5525 50  0001 C CNN
+F 3 "~" H 6800 5525 50  0001 C CNN
+	1    6800 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C63EB03
+P 7500 5500
+F 0 "H3" H 7600 5546 50  0000 L CNN
+F 1 "MountingHole" H 7600 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 5500 50  0001 C CNN
+F 3 "~" H 7500 5500 50  0001 C CNN
+	1    7500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5C63EB90
+P 6800 5825
+F 0 "H6" H 6900 5871 50  0000 L CNN
+F 1 "MountingHole" H 6900 5780 50  0000 L CNN
+F 2 "kbd:HOLE" H 6800 5825 50  0001 C CNN
+F 3 "~" H 6800 5825 50  0001 C CNN
+	1    6800 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5C63EC1E
+P 7525 5800
+F 0 "H5" H 7625 5846 50  0000 L CNN
+F 1 "MountingHole" H 7625 5755 50  0000 L CNN
+F 2 "kbd:HOLE" H 7525 5800 50  0001 C CNN
+F 3 "~" H 7525 5800 50  0001 C CNN
+	1    7525 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5C63ECAF
+P 6800 6075
+F 0 "H7" H 6900 6121 50  0000 L CNN
+F 1 "MountingHole" H 6900 6030 50  0000 L CNN
+F 2 "kbd:HOLE" H 6800 6075 50  0001 C CNN
+F 3 "~" H 6800 6075 50  0001 C CNN
+	1    6800 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5C63ED73
+P 7525 6075
+F 0 "H8" H 7625 6121 50  0000 L CNN
+F 1 "MountingHole" H 7625 6030 50  0000 L CNN
+F 2 "kbd:HOLE" H 7525 6075 50  0001 C CNN
+F 3 "~" H 7525 6075 50  0001 C CNN
+	1    7525 6075
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
