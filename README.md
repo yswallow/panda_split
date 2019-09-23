@@ -7,8 +7,8 @@ split 5x4 keyboard using MCP23017
 | ---- | ---- | ---- | ---- | ---- |
 | MJ-4PP-9 | 2 | TRRS jack | http://akizukidenshi.com/catalog/g/gC-06070/ | PJ-320A |
 | LED| 1 |  |  |  |
-| Resister | 1 | for LED | http://akizukidenshi.com/catalog/g/gR-25472/ |  |
-| Capasiter 0.1μF | 1 | 2.5mm pitch | http://akizukidenshi.com/catalog/g/gP-00090/ |  |
+| Resistor | 1 | for LED | http://akizukidenshi.com/catalog/g/gR-25472/ |  |
+| Capacitor 0.1μF | 1 | 2.5mm pitch | http://akizukidenshi.com/catalog/g/gP-00090/ |  |
 | Slide Switch | 2 | 2.54mm pitch, SPDT | http://akizukidenshi.com/catalog/g/gP-08790/ |  |
 | MCP23017-E/SP | 2 | I2C I/O Expander | http://akizukidenshi.com/catalog/g/gI-09486/ |  |
 | IC Socket | 2 | 28pin, 300mil | http://akizukidenshi.com/catalog/g/gP-00013/ |  |
